@@ -12,7 +12,7 @@ function hdr = makeBasicEnviHeader( A )
 %
 % OUTPUTS:
 %   hdr: A structure containing the basic header information. 
-%	hdr.bands: the number of bands
+%   hdr.bands: the number of bands
 %   hdr.byteOrder: 'ieee-be' or 'ieee-le'
 %   hdr.dataType: the data type (numeric)
 %   hdr.fileType: the type of file (ENVI Standard)

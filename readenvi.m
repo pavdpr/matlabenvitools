@@ -56,7 +56,7 @@ function [ A, header ] = readenvi( fname, verbose )
 %   header.yStart - Defines the image coordinates for the upper-left pixel 
 %       in the image.
 %
-% NOTES: 	
+% NOTES:
 %   -readenvi needs the corresponding image header file generated
 %   automatically by ENVI. The ENVI header file must have the same name as 
 %   the ENVI image file + the '.hdr' extension.
